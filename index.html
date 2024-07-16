@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glass">
+    <h1>Chatbot</h1>
+    <h2>Let's have some interaction</h2>
+    <div class="input">
+      <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk() }" placeholder="Type your question"/>
+    </div>
+    <p id="chatLog">Answer appearing here</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
